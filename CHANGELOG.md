@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.3.3] - 2020-06-19
+### Added
+- Add a notification on editor start to notify the move to [VSpaceCode](https://github.com/VSpaceCode/VSpaceCode)
+
 ## [0.3.2] - 2020-06-15
 ### Added
 - Add a mechanism to override default bindings incrementally.
