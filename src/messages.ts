@@ -110,3 +110,14 @@ export async function checkVim(isNew = false) {
         }
     }
 }
+
+export async function showDeprecatingMessage() {
+    const message = "Spacecode is moved and renamed to VSpaceCode to reach a larger community of users. This version of the extension is being deprecating. Please uninstall this extension and install VSpaceCode.";
+    const selection = await window.showWarningMessage(
+        message,
+        "Install"
+    );
+    if (selection === "Install") {
+        await env.openExternal(Uri.parse("vscode:extension/VSpaceCode.vspacecode"));
+    }
+}

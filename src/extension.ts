@@ -3,7 +3,7 @@ import { ConfigKey, extensionId, extensionQualifiedId, GlobalState, spaceCmdId }
 import { IBindingItem, IOverrideBindingItem } from './iBindingItem';
 import { createQuickPick } from './menu/menu';
 import MenuItem from './menu/menuItem';
-import { checkVim, showWelcomeScreen } from './messages';
+import { checkVim, showWelcomeScreen, showDeprecatingMessage } from './messages';
 
 class SpacecodeCmd {
     private items?: MenuItem[];
@@ -51,6 +51,8 @@ export function activate(context: ExtensionContext) {
     } else {
         checkVim();
     }
+
+    showDeprecatingMessage();
 }
 
 export function deactivate() { }
