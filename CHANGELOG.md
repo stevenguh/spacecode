@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.3.4] - 2020-06-19
+### Changed
+- Update the README with the correct link
+
+
 ## [0.3.3] - 2020-06-19
 ### Added
 - Add a notification on editor start to notify the move to [VSpaceCode](https://github.com/VSpaceCode/VSpaceCode)
