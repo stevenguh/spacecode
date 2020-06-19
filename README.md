@@ -1,4 +1,4 @@
-This extension is moved to [VSpaceCode]( https://github.com/VSpaceCode/VSpaceCode) to benefit a larger community. This extension will no longer receive any update.
+This extension is moved to [VSpaceCode](https://github.com/VSpaceCode/VSpaceCode) to benefit a larger community. This extension will no longer receive any update.
 
 ### Migration
 If you are currently using this extension, you can uninstall this extension `spacecode` and install `VSpaceCode`
